@@ -8,11 +8,11 @@ const APP_BASE_PATH = basename(process.env.GITHUB_REPOSITORY || '')
 
 export default defineConfig({
   outDir: '../dist',
-  base: APP_BASE_PATH ? `/${APP_BASE_PATH}/` : '/',
+  
 
   lang: 'zh-CN',
-  title: '茂茂物语',
-  description: '茂茂的成长之路，包含前端常用知识、源码阅读笔记、各种奇淫技巧、日常提效工具等',
+  title: 'LOL下载网盘',
+  description: 'LOL下载网盘',
   head,
 
   lastUpdated: true,
@@ -25,9 +25,9 @@ export default defineConfig({
 
   /* 主题配置 */
   themeConfig: {
-    i18nRouting: false,
+    i18nRouting: ture,
 
-    logo: '/logo.png',
+    logo: 'https://vip.helloimg.com/i/2024/06/11/66681ed70ba35.png',
 
     nav,
     sidebar,
@@ -38,11 +38,11 @@ export default defineConfig({
       label: '目录',
     },
 
-    socialLinks: [{ icon: 'github', link: 'https://github.com/maomao1996/vitepress-nav-template' }],
+   
 
     footer: {
-      message: '如有转载或 CV 的请标注本站原文地址',
-      copyright: 'Copyright © 2019-present maomao',
+     
+      copyright: 'Copyright © 2023-2024 LOL综合下载网盘',
     },
 
     lastUpdated: {
@@ -66,11 +66,11 @@ export default defineConfig({
 
     /*** 自定义配置 ***/
     visitor: {
-      badgeId: 'maomao1996.vitepress-nav-template',
+      badgeId: 'xzwplol.vitepress-nav-template',
     },
 
     comment: {
-      repo: 'maomao1996/vitepress-nav-template',
+      repo: 'xzwp/vitepress-nav-template',
       repoId: 'R_kgDOJC09Jg',
       category: 'Announcements',
       categoryId: 'DIC_kwDOJC09Js4Cekn0',
